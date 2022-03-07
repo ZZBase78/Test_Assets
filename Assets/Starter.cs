@@ -1,13 +1,14 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public sealed class Starter : MonoBehaviour
+namespace ExpressionParser
 {
-    private void Start()
+    public sealed class Starter : MonoBehaviour
     {
-        Game game = new Game();
-        game.Start();
-    }
+        private void Start()
+        {
+            Game game = new Game();
+            game.Start();
+        }
 
+    }
 }
